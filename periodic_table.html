@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>    
+</head>
+<style>
+    body {
+        font-family: sans-serif;
+    }
+    h1 {
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    h2 {
+        font-size: 20px;
+        margin: 0 auto; 
+    }
+    .cellt {
+        border: 2px solid rgb(0, 200, 255);
+        width: 30px;
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .cellb {
+        border: 2px solid rgb(3, 118, 241);
+        width: 30px;
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .cellm {
+        border: 2px solid rgb(157, 89, 197);
+        width: 30px;
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .cellr {
+        border: 2px solid rgb(255, 65, 65);
+        width: 30px;
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .celly {
+        border: 2px solid rgb(255, 200, 0);
+        width: 30px;
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .cello {
+        border: 2px solid rgb(255, 128, 0);
+        width: 30px;
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .cellg {
+        border: 2px solid rgb(0, 213, 28);
+        width: 30px;
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+    }    
+    .cellu {
+        border: 2px solid rgb(0, 169, 169);
+        width: 30px;
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .cellgy {
+        border: 2px solid rgb(119, 119, 119);
+        width: 30px;
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+    }    
+    .celli {
+        border: 2px solid rgb(255, 255, 255);
+        width: 30px;
+        height: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .celll {
+        border: 2px solid rgb(45, 65, 109);
+        width: 30px;
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .cella {
+        border: 2px solid rgb(132, 34, 231);
+        width: 30px;
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+    }
+</style>
+<body>
+    <table align="center" style="margin-top: 50px;">
+        <!-- start first row -->
+        <tr>
+            <td class="cellt">
+                <h1>1</h1>
+                <h2>H</h2>
+            </td>
+            </td>
+            <td class="celli" colspan="16">
+            </td>
+            <td class="cellu">
+                <h1>2</h1>
+                <h2>He</h2>
+            </td>
+        </tr>
+        <!-- start second row -->
+        <tr>
+            <td class="cellb">
+                <h1>3</h1>
+                <h2>Li</h2>
+            </td>
+            <td class="cellm">
+                <h1>4</h1>
+                <h2>Be</h2>
+            </td>
+            </td>
+            <td class="celli" colspan="10">
+            </td>
+            <td class="celly">
+                <h1>5</h1>
+                <h2>B</h2>
+            </td>
+            <td class="cellu">
+                <h1>6</h1>
+                <h2>C</h2>
+            </td>
+            <td class="cellt">
+                <h1>7</h1>
+                <h2>N</h2>
+            </td>
+            <td class="cellt">
+                <h1>8</h1>
+                <h2>O</h2>
+            </td>
+            <td class="cellg">
+                <h1>9</h1>
+                <h2>F</h2>
+            </td>
+            <td class="cellu">
+                <h1>10</h1>
+                <h2>Ne</h2>
+            </td>            
+        </tr>
+        <!-- start third row -->
+        <tr>
+            <td class="cellb">
+                <h1>11</h1>
+                <h2>Na</h2>
+            </td>
+            <td class="cellm">
+                <h1>12</h1>
+                <h2>Mg</h2>
+            </td>
+            <td class="celli" colspan="10">                
+            </td>            
+            <td class="cello">
+                <h1>13</h1>
+                <h2>Al</h2>
+            </td>
+            <td class="celly">
+                <h1>14</h1>
+                <h2>Si</h2>
+            </td>
+            <td class="cellt">
+                <h1>15</h1>
+                <h2>P</h2>
+            </td>
+            <td class="cellt">
+                <h1>16</h1>
+                <h2>S</h2>
+            </td>
+            <td class="cellg">
+                <h1>17</h1>
+                <h2>Cl</h2>
+            </td>
+            <td class="cellu">
+                <h1>18</h1>
+                <h2>Ar</h2>
+            </td>
+        </tr>
+        <!-- start fourth row -->
+        <tr>
+            <td class="cellb">
+                <h1>19</h1>
+                <h2>K</h2>
+            </td>
+            <td class="cellm">
+                <h1>20</h1>
+                <h2>Ca</h2>
+            </td>
+            <td class="cellr">
+                <h1>21</h1>
+                <h2>Sc</h2>
+            </td>
+            <td class="cellr">
+                <h1>22</h1>
+                <h2>Ti</h2>
+            </td>
+            <td class="cellr">
+                <h1>23</h1>
+                <h2>V</h2>
+            </td>
+            <td class="cellr">
+                <h1>24</h1>
+                <h2>Cr</h2>
+            </td>
+            <td class="cellr">
+                <h1>25</h1>
+                <h2>Mn</h2>
+            </td>
+            <td class="cellr">
+                <h1>26</h1>
+                <h2>Fe</h2>
+            </td>
+            <td class="cellr">
+                <h1>27</h1>
+                <h2>Co</h2>
+            </td>
+            <td class="cellr">
+                <h1>28</h1>
+                <h2>Ni</h2>
+            </td>
+            <td class="cellr">
+                <h1>29</h1>
+                <h2>Cu</h2>
+            </td>
+            <td class="cellr">
+                <h1>30</h1>
+                <h2>Zn</h2>
+            </td>
+            <td class="cello">
+                <h1>31</h1>
+                <h2>Ga</h2>
+            </td>
+            <td class="celly">
+                <h1>32</h1>
+                <h2>Ge</h2>
+            </td>
+            <td class="celly">
+                <h1>33</h1>
+                <h2>As</h2>
+            </td>
+            <td class="cellt">
+                <h1>34</h1>
+                <h2>Se</h2>
+            </td>
+            <td class="cellg">
+                <h1>35</h1>
+                <h2>Br</h2>
+            </td>
+            <td class="cellu">
+                <h1>36</h1>
+                <h2>Kr</h2>
+            </td>            
+        </tr>
+        <!-- start fifth row -->
+        <tr>
+            <td class="cellb">
+                <h1>37</h1>
+                <h2>Rb</h2>
+            </td>
+            <td class="cellm">
+                <h1>38</h1>
+                <h2>Sr</h2>
+            </td>
+            <td class="cellr">
+                <h1>39</h1>
+                <h2>Y</h2>
+            </td>
+            <td class="cellr">
+                <h1>40</h1>
+                <h2>Zr</h2>
+            </td>
+            <td class="cellr">
+                <h1>41</h1>
+                <h2>Nb</h2>
+            </td>
+            <td class="cellr">
+                <h1>42</h1>
+                <h2>Mo</h2>
+            </td>
+            <td class="cellr">
+                <h1>43</h1>
+                <h2>Tc</h2>
+            </td>
+            <td class="cellr">
+                <h1>44</h1>
+                <h2>Ru</h2>
+            </td>
+            <td class="cellr">
+                <h1>45</h1>
+                <h2>Rh</h2>
+            </td>
+            <td class="cellr">
+                <h1>46</h1>
+                <h2>Pd</h2>
+            </td>
+            <td class="cellr">
+                <h1>47</h1>
+                <h2>Ag</h2>
+            </td>
+            <td class="cellr">
+                <h1>48</h1>
+                <h2>Cd</h2>
+            </td>
+            <td class="cello">
+                <h1>49</h1>
+                <h2>In</h2>
+            </td>
+            <td class="cello">
+                <h1>50</h1>
+                <h2>Sn</h2>
+            </td>
+            <td class="celly">
+                <h1>51</h1>
+                <h2>Sb</h2>
+            </td>
+            <td class="celly">
+                <h1>52</h1>
+                <h2>Te</h2>
+            </td>
+            <td class="cellg">
+                <h1>53</h1>
+                <h2>I</h2>
+            </td>
+            <td class="cellu">
+                <h1>54</h1>
+                <h2>Xe</h2>
+            </td>
+        </tr>     
+           <!-- start sixth row -->
+        <tr>
+            <td class="cellb">
+                <h1>55</h1>
+                <h2>Cs</h2>
+            </td>
+            <td class="cellm">
+                <h1>56</h1>
+                <h2>Ba</h2>
+            </td>
+            <td class="celll">
+                <h1></h1>
+                <h2>*</h2>
+            </td>
+            <td class="cellr">
+                <h1>72</h1>
+                <h2>Hf</h2>
+            </td>
+            <td class="cellr">
+                <h1>73</h1>
+                <h2>Ta</h2>
+            </td>
+            <td class="cellr">
+                <h1>74</h1>
+                <h2>W</h2>
+            </td>
+            <td class="cellr">
+                <h1>75</h1>
+                <h2>Re</h2>
+            </td>
+            <td class="cellr">
+                <h1>76</h1>
+                <h2>Os</h2>
+            </td>
+            <td class="cellr">
+                <h1>77</h1>
+                <h2>Ir</h2>
+            </td>
+            <td class="cellr">
+                <h1>78</h1>
+                <h2>Pt</h2>
+            </td>
+            <td class="cellr">
+                <h1>79</h1>
+                <h2>Au</h2>
+            </td>
+            <td class="cellr">
+                <h1>80</h1>
+                <h2>Hg</h2>
+            </td>
+            <td class="cello">
+                <h1>81</h1>
+                <h2>Tl</h2>
+            </td>
+            <td class="cello">
+                <h1>82</h1>
+                <h2>Pb</h2>
+            </td>
+            <td class="cello">
+                <h1>83</h1>
+                <h2>Bi</h2>
+            </td>
+            <td class="celly">
+                <h1>84</h1>
+                <h2>Po</h2>
+            </td>
+            <td class="cellg">
+                <h1>85</h1>
+                <h2>At</h2>
+            </td>
+            <td class="cellu">
+                <h1>86</h1>
+                <h2>Rn</h2>
+            </td>
+        </tr>        
+           <!-- start seventh row -->
+        <tr>
+            <td class="cellb">
+                <h1>87</h1>
+                <h2>Fr</h2>
+            </td>
+            <td class="cellm">
+                <h1>88</h1>
+                <h2>Ra</h2>
+            </td>
+            <td class="cella">
+                <h1></h1>
+                <h2>**</h2>
+            </td>
+            <td class="cellr">
+                <h1>104</h1>
+                <h2>Rf</h2>
+            </td>
+            <td class="cellr">
+                <h1>105</h1>
+                <h2>Db</h2>
+            </td>
+            <td class="cellr">
+                <h1>106</h1>
+                <h2>Sg</h2>
+            </td>
+            <td class="cellr">
+                <h1>107</h1>
+                <h2>Bh</h2>
+            </td>
+            <td class="cellr">
+                <h1>108</h1>
+                <h2>Hs</h2>
+            </td>
+            <td class="cellr">
+                <h1>109</h1>
+                <h2>Mt</h2>
+            </td>
+            <td class="cellr">
+                <h1>110</h1>
+                <h2>Ds</h2>
+            </td>
+            <td class="cellr">
+                <h1>111</h1>
+                <h2>Rg</h2>
+            </td>
+            <td class="cellr">
+                <h1>112</h1>
+                <h2>Cn</h2>
+            </td>
+            <td class="cellgy">
+                <h1>113</h1>
+                <h2>Nh</h2>
+            </td>
+            <td class="cellgy">
+                <h1>114</h1>
+                <h2>Fl</h2>
+            </td>
+            <td class="cellgy">
+                <h1>115</h1>
+                <h2>Mc</h2>
+            </td>
+            <td class="cellgy">
+                <h1>116</h1>
+                <h2>Lv</h2>
+            </td>
+            <td class="cellgy">
+                <h1>117</h1>
+                <h2>Ts</h2>
+            </td>
+            <td class="cellgy">
+                <h1>118</h1>
+                <h2>Og</h2>
+            </td>
+        </tr> 
+        <!-- start eighth row -->
+        <tr>
+            <td class="celli"></td>
+        </tr> 
+        <!-- start ninth row Lathanides -->
+        <tr>
+            <td class="celli" colspan="2">
+                <h1></h1>
+                <h2></h2>
+            </td>            
+            <td class="celll">
+                <h1>57</h1>
+                <h2>La</h2>
+            </td>
+            <td class="celll">
+                <h1>58</h1>
+                <h2>Ce</h2>
+            </td>
+            <td class="celll">
+                <h1>59</h1>
+                <h2>Pr</h2>
+            </td>
+            <td class="celll">
+                <h1>60</h1>
+                <h2>Nd</h2>
+            </td>
+            <td class="celll">
+                <h1>61</h1>
+                <h2>Pm</h2>
+            </td>
+            <td class="celll">
+                <h1>62</h1>
+                <h2>Sm</h2>
+            </td>
+            <td class="celll">
+                <h1>63</h1>
+                <h2>Eu</h2>
+            </td>
+            <td class="celll">
+                <h1>64</h1>
+                <h2>Gd</h2>
+            </td>
+            <td class="celll">
+                <h1>65</h1>
+                <h2>Tb</h2>
+            </td>
+            <td class="celll">
+                <h1>66</h1>
+                <h2>Dy</h2>
+            </td>
+            <td class="celll">
+                <h1>67</h1>
+                <h2>Ho</h2>
+            </td>
+            <td class="celll">
+                <h1>68</h1>
+                <h2>Er</h2>
+            </td>
+            <td class="celll">
+                <h1>69</h1>
+                <h2>Tm</h2>
+            </td>
+            <td class="celll">
+                <h1>70</h1>
+                <h2>Yb</h2>
+            </td>
+            <td class="celll">
+                <h1>71</h1>
+                <h2>Lu</h2>
+            </td>            
+        </tr>
+        <!-- start tenth row Actinides -->
+        <tr>
+            <td class="celli" colspan="2">
+                <h1></h1>
+                <h2></h2>
+            </td>            
+            <td class="cella">
+                <h1>89</h1>
+                <h2>Ac</h2>
+            </td>
+            <td class="cella">
+                <h1>90</h1>
+                <h2>Th</h2>
+            </td>
+            <td class="cella">
+                <h1>91</h1>
+                <h2>Pa</h2>
+            </td>
+            <td class="cella">
+                <h1>92</h1>
+                <h2>U</h2>
+            </td>
+            <td class="cella">
+                <h1>93</h1>
+                <h2>Np</h2>
+            </td>
+            <td class="cella">
+                <h1>94</h1>
+                <h2>Pu</h2>
+            </td>
+            <td class="cella">
+                <h1>95</h1>
+                <h2>Am</h2>
+            </td>
+            <td class="cella">
+                <h1>96</h1>
+                <h2>Cm</h2>
+            </td>
+            <td class="cella">
+                <h1>97</h1>
+                <h2>Bk</h2>
+            </td>
+            <td class="cella">
+                <h1>98</h1>
+                <h2>Cf</h2>
+            </td>
+            <td class="cella">
+                <h1>99</h1>
+                <h2>Es</h2>
+            </td>
+            <td class="cella">
+                <h1>100</h1>
+                <h2>Fm</h2>
+            </td>
+            <td class="cella">
+                <h1>101</h1>
+                <h2>Md</h2>
+            </td>
+            <td class="cella">
+                <h1>102</h1>
+                <h2>No</h2>
+            </td>
+            <td class="cella">
+                <h1>103</h1>
+                <h2>Lr</h2>
+            </td>            
+        </tr>
+    </table>
+</body>
+</html>
